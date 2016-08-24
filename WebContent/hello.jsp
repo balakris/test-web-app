@@ -6,6 +6,6 @@
 <%@ page import="java.util.*" %>
 <h2>Time on server: <%= new Date() %></h2>
 <p>
-All your code are belong to us!
+All your code are <i>really</i> belong to us!
 </p>
 </body></html>
