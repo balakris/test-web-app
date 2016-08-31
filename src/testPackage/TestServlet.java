@@ -10,7 +10,7 @@ import javax.servlet.http.*;
  */
 
 @WebServlet("/test1")
-public class TestServlet extends HttpServlet implements Servlet {
+public class TestServlet extends HttpServlet {
   /**
 	 * 
 	 */

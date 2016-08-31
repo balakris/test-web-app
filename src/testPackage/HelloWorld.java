@@ -26,6 +26,6 @@ public class HelloWorld extends HttpServlet {
                     HttpServletResponse response)
       throws ServletException, IOException {
     PrintWriter out = response.getWriter();
-    out.println("Hello New World");
+    out.println("Hello World");
   }
 }
