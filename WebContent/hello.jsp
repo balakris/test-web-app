@@ -1,13 +1,22 @@
-<!DOCTYPE html>
 <html>
-<head><title>Sample JSP Page</title></head>
-<body>
+<head>
+<title>Sample JSP Page</title>
+</head>
+<body bgcolor=white>
+
+<table border="0">
+<tr>
+<td align=center>
+<img src="images/tomcat.gif">
+</td>
+<td>
 <h1>Sample JSP Page</h1>
-<%@ page import="java.util.*" %>
-<h2>Time on server: <%= new Date() %></h2>
-<p>
-This is a simple JSP page. When first learning, make a new Dynamic Web app in Eclipse,
-copy this file to the WebContent folder, deploy the app, start the server, and access 
-the page with http://localhost/<i>appName</i>/hello.jsp.
-</p>
-</body></html>
+</td>
+</tr>
+</table>
+
+<p>This is the output of a JSP page</p>
+<%= new String("Hello Big World!") %>
+
+</body>
+</html>
